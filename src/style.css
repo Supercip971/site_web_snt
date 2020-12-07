@@ -28,7 +28,23 @@ html {
     box-sizing: border-box;
     overscroll-behavior-y: contain;
 }
-
+.infobar_resize{
+    position: fixed;
+    left:  var(--sidebar-width);
+    top: 0;
+    bottom: 0;
+    height: fill;
+    width: 1%;
+    cursor: col-resize;
+}
+iframe[seamless]{
+    border: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    
+}
 .infobar_text {
     font-family: Arial, Helvetica, sans-serif;
 

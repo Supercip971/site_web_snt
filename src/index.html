@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html style="--sidebar-width:25%;">
+<html style=
+    "--sidebar-width:25%;"
+    id="html_id"
+>
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css">
         <title>Mon passe temps : la programmation </title>
-        <script src="script.js"></script>
+        <script src="script.js">"init()"</script>
+        
     </head>
-    <body>
-        <div class="infobar_resize" id="infobar_resize">
+    <body onload="init()">
+        
             <nav class="infobar">
                 <p class = "infobar_text"> site web SNT </p>
                 <p class = "infobar_button">mon passe temps</p>
                 <p class = "infobar_button">la programmation</p>
                 <p class = "infobar_button">mes projets</p>
-    
-            </nav>
-        </div>
         
+            </nav>
+        <div class="infobar_resize" id="infobar_resize"></div>
+
         <div class="centre">
             <p>Petit paragraphe: todo: ajout de code css</p>
             
