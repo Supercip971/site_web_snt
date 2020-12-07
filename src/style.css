@@ -1,5 +1,48 @@
+
+
+/*
+note: couleurs choisies : (utilisation du site http://colormind.io/) 
+#5DCE99 (cyan)
+#0696AA (vert)
+#EDD263 (jaune)
+#FB5B18 (orange)
+#E8443D (rouge)
+*/
 p {
-    color: rgb(0, 10, 20);
+    color: rgb(28, 32, 36);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+.infobar{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+    background-color: #0696AA;    
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: var(--sidebar-width);
+
+    box-sizing: border-box;
+    overscroll-behavior-y: contain;
+}
+
+.infobar_element {
+    margin: 5%;
+    padding: 5%;
+    cursor: pointer;
+    animation: 3s slidein;
+    border-radius: 8px;
+    transition: box-shadow 0.5s;
+}
+.infobar_element:hover{
+    animation: slide 2s ease-in-out .5s infinite alternate;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.centre{
+    transform: none;
+    margin-left: var(--sidebar-width);
 }
