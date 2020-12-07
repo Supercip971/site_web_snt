@@ -8,14 +8,14 @@ note: couleurs choisies : (utilisation du site http://colormind.io/)
 #FB5B18 (orange)
 #E8443D (rouge)
 */
-p {
+html {
     color: rgb(28, 32, 36);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .infobar{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
+    overflow-y: auto;
     background-color: #0696AA;    
     position: fixed;
     left: 0;
@@ -30,12 +30,18 @@ p {
 }
 
 .infobar_element {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     margin: 5%;
     padding: 5%;
     cursor: pointer;
     animation: 3s slidein;
     border-radius: 8px;
     transition: box-shadow 0.5s;
+
+    user-select: none;
 }
 .infobar_element:hover{
     animation: slide 2s ease-in-out .5s infinite alternate;
