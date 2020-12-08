@@ -16,6 +16,17 @@ function initResize(e) {
     window.addEventListener('mouseup', stopResize, false);
     html.classList.add('sidebar-resizing');
 }
+function infobar_call(id){
+    if(id == 1){
+        window.open("index.html");
+    }
+    else if(id == 2){
+        window.open("programmation.html");
+    }
+    else if(id == 3){
+        window.open("projet.html");
+    }
+}
 function resize(e) {
     var ev = window.Event;
     console.trace("hello 2");
