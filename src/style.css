@@ -9,6 +9,7 @@ note: couleurs choisies : (utilisation du site http://colormind.io/)
 #E8443D (rouge)
 */
 html {
+    background-color: rgb(226, 226, 226);
     color: rgb(28, 32, 36);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
