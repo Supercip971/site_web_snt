@@ -1,0 +1,38 @@
+<!-- les balises comme ceci servent à mettre des commentaires, 
+elles ne sont pas lue par le navigateur et 
+permettent d'expliquer le code-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- cette balise permet de mettre l'encodage vers UTF8, cela permettera d'utiliser 
+        é è ê à ... -->
+        <meta charset="UTF-8">
+        <!-- ici on a le lien vers le fichier css, ce qui permet de lier le code html vers celui ci
+        
+        notre fichier css se nomme style.css doc la balise serra comme ceci : -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- le titre de la page se retrouvera comme nom de l'onglet, c'est important ! -->
+        <title> La plage : sans sargasse c'est bien </title>
+    </head>
+
+    <!-- ici on rentre dans le vif du sujet, tout ce qui est dans la balise 'body' serra affiché dans la page-->
+    <body>
+        <!-- ok maintenant on va utiliser la balise div, elle permet de donner une classe à toutes ses sous 
+        balises, par exemple si je met la classe "plage", alors les balises à l'intérieure de celle-ci 
+        auront elles aussi la classe "plage", cela évite de mettre plage sur chacune des balises-->
+        <div class="plage">
+            
+            <!-- bon maintenant je veux mettre une image mais comment fait on jamy ? -->
+            <!-- j'utilise la balise img, et je met la source avec src="..."-->
+            <img src="img/plage.jpg">
+            
+            <!-- la balise <p></p> est un paragraphe, elle est utilisée pour mettre du texte -->
+            <!-- pour créer une nouvelle ligne vous refaite une nouvelle balise paragraphe-->
+            <p> La plage </p>
+            <p> Rampe de sables, de graviers ou de galets développée au niveau du rivage (plage littorale) 
+                et jusqu'aux profondeurs où les houles sont capables de remaniement (plage sous-marine).</p>
+
+        </div>
+    </body>
+</html>

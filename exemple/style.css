@@ -1,0 +1,22 @@
+
+/*  le code délimité comme ceci sert a commenter, il n'est pas lu par le navigateur */
+/* cela permet de décrire le code */
+
+/* ici on a la classe plage qui a d'autres attributs, en css il y en a plusieurs
+    mais pour l'instant je vous en montre 3 */
+.plage{
+    /* l'attribut couleur est utilisé pour la couleur du texte */
+    /* note : si vous voulez une couleur précise utilisez rgb(ROUGE,VERT,BLEU) avec 
+    chacune des veleur entre 0 et 255*/
+    /* sur visual studio code vous pouvez survoler avec la souris et cela vous proposera une interface
+    qui vous aidera à choisir la couleur*/
+    color: rgb(255, 255, 255);
+    /* l'attribut background-color est utilisé pour définir la couleur du fond de l'élément*/
+    background-color: teal;
+    /* le 'padding' permet d'espacer un peut à l'intérieur pour éviter d'avoir tout coller
+    , ici j'utilise X% pour avoir 1% de la page mais vous pouvez 
+    utiliser des pixel (avec Xpx)*/
+    padding: 1%;
+    /* ici je donne la police du texte 'Courier New' avec font-family*/
+    font-family: 'Courier New';
+}
