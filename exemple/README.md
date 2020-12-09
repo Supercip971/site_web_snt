@@ -16,3 +16,11 @@ note sachez que les deux fichier ont des commentaires qui explique le code
 
 si vous ne voulez pas de commentaire il y a des version sans-commentaires 
 
+--------
+logiciel Visual studio code : [téléchargement](https://code.visualstudio.com/#alt-downloads)
+
+n'hésitez pas à regarder la documentation mozilla sur les site web
+
+et évitez de faire juste un copier coller, c'est pas sympa :^( 
+
+bonne chance ! 
