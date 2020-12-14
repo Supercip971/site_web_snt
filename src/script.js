@@ -11,7 +11,6 @@ function init(){
 }
 function initResize(e) {
     
-    
     window.addEventListener('mousemove', resize, false);
     window.addEventListener('mouseup', stopResize, false);
     html.classList.add('sidebar-resizing');
@@ -45,4 +44,7 @@ function stopResize(e) {
 function insert(a){
 
     
+}
+function toggle_popup(txt){
+    document.getElementById(txt).classList.toggle('notshow');
 }

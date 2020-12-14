@@ -126,6 +126,21 @@ iframe[seamless]{
 
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.notshow{
+    visibility: hidden;
+}
+#cpppopup{
+
+}
+.popup{
+    
+    position: fixed;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
 .fcard{
 
   text-align: center;

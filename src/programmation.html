@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./style.css">
-        <title> programmation </title>
+        <title>programmation</title>
         <script src="script.js" type="text/javascript"></script>
         
     </head>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="fcard">
                         <img src="./img/cplusplus.png" class="fcard_img">
-                        <p class="fcard_button" onclick="location.href='https://google.com';">C++</p>
+                        <p class="fcard_button" onclick="toggle_popup('cpppopup')">C++</p>
                     </div>
                     <div class="fcard">
                         <img src="./img/lua.png" class="fcard_img">
@@ -71,6 +71,14 @@
                         <p class="fcard_button" onclick="location.href='https://google.com';">js / css / html</p>
                     </div>
                 </div>
+            </div>
+
+            <div id="cpppopup" class="popup">
+                <div class="ctext">
+                    <p>Le C++</p>
+                    <p class="fcard_button" onClick='toggle_popup("cpppopup")'> < revenir à languages /> </p>
+
+                </div> 
             </div>
         </div>
     </body>
